@@ -164,3 +164,28 @@ Shows total sales and profit grouped by year and month chronologically. Useful f
 3. Unit price values could not be validated as no master product price list was available for cross-checking.
 4. Some calculated_sales values differ slightly from the originally reported sales figures even after discount cleaning. This may indicate upstream rounding differences or data entry errors that cannot be resolved through cleaning alone.
 5. The cleaning process addresses systematic and pattern-based issues. Individual record-level errors such as a wrong customer name or incorrect city require manual spot-checking which was outside the scope of this project.
+
+## Screenshots Included
+- raw_data_preview.png
+- cleaned_data_preview.png
+- pivot_summary_1.png
+- pivot_summary_2.png
+
+# Repository
+
+```
+part1_data_cleaning/
+├── data/
+│   ├── raw_orders.xlsx
+│   └── cleaned_orders.xlsx
+├── outputs/
+│   ├── data_quality_report.xlsx
+│   ├── pivot_summary.xlsx
+│   └── cleaning_log.md
+├── screenshots/
+│   ├── raw_data_preview.png
+│   ├── cleaned_data_preview.png
+│   ├── pivot_summary_1.png
+│   └── pivot_summary_2.png
+└── README.md
+```
